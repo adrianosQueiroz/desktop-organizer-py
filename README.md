@@ -16,6 +16,42 @@ Script automatizado para organizar arquivos da Área de Trabalho (Desktop) em pa
 - Biblioteca `os` e `shutil` (Nativas do Python)
 
 ## 📋 Como usar
-1. Clone este repositório:
-   ```bash
+1.## 🚀 Como Utilizar
+
+Siga os passos abaixo para configurar e executar o organizador em sua máquina.
+
+### 1.1 Pré-requisitos
+Certifique-se de ter o **Python 3.x** instalado. Você pode verificar digitando no terminal:
+
+python --version
+
+
+2. Clonando o Repositório
+Abra o seu terminal (ou Git Bash) e execute: Clone este repositório:
+
    git clone [https://github.com/adrianosQueiroz/desktop-organizer-py.git](https://github.com/adrianosQueiroz/desktop-organizer-py.git)
+
+
+3. Execução
+Para organizar sua Área de Trabalho agora mesmo, rode o comando:
+
+Bash
+python src/main.py
+4. Customização (Opcional)
+Se você deseja adicionar novas extensões ou mudar o nome das pastas:
+
+Abra o arquivo src/main.py.
+
+Localize o dicionário MAPA_EXTENSOES.
+
+Adicione a categoria desejada seguindo o padrão:
+
+Python
+'Minha Nova Pasta': ['.ext1', '.ext2']
+🧪 Rodando os Testes
+Para garantir que o ambiente está configurado corretamente e a lógica de movimentação está íntegra, execute:
+
+Bash
+python -m unittest tests/test_main.py
+
+---
