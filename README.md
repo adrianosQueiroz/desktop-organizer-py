@@ -18,4 +18,4 @@ Script automatizado para organizar arquivos da Área de Trabalho (Desktop) em pa
 ## 📋 Como usar
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/desktop-organizer-py.git](https://github.com/seu-usuario/desktop-organizer-py.git)
+   git clone [https://github.com/adrianosQueiroz/desktop-organizer-py.git](https://github.com/adrianosQueiroz/desktop-organizer-py.git)
